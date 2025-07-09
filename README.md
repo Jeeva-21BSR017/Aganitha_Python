@@ -49,6 +49,8 @@ This screenshot shows Poetry successfully installing all dependencies and runnin
 
 ![image](https://github.com/user-attachments/assets/95c9a27c-23be-4b5d-bb46-f14b58e3ef16)
 
+
+
 The tool successfully fetched and filtered papers using the `"immunotherapy cancer"` and `"covid vaccine"` queries.  
 You can see it:
 
