@@ -60,4 +60,8 @@ You can see it:
 ![image](https://github.com/user-attachments/assets/21fb6c36-382a-4dee-8913-6b81043e092b)
 
 
+### 🧾 Sample CSV Output
+
+This is how the exported data looks in `papers.csv` opened in Excel:
+![image](https://github.com/user-attachments/assets/c12a281a-ea2d-4bc1-b448-2ccd6e61328f)
 
