@@ -8,6 +8,7 @@ def main():
     )
     parser.add_argument("query", help="Search term for PubMed.")
     parser.add_argument("-f", "--file", dest="filename", help="Output CSV file.")
+    parser.add_argument("--excel", action="store_true", help="Export results to Excel")
     parser.add_argument("-d", "--debug", action="store_true",
                         help="Enable debug logging.")
     args = parser.parse_args()
@@ -37,3 +38,6 @@ def main():
             for key, value in paper.items():
                 print(f"{key}: {value}")
             print()
+    if args.excel:
+        from get_papers_list.excel_exporter import save_to_excel
+        save_to_excel(papers, "results.xlsx")
